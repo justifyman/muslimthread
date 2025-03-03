@@ -288,6 +288,7 @@ const sections = [
       { text: "abdurrahman.org", url: "https://abdurrahman.org" },
       { text: "kalamullah", url: "https://kalamullah.com/" },
       { text: "Ad-Dorar As-Sunniyah", url: "https://dorar.net/en" },
+      { text: "shamela.ws", note: "(arabic only)", url: "https://shamela.ws" },
       {
         text: "honey for the heart",
         url: "https://honeyfortheheart.wordpress.com",
