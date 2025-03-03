@@ -154,6 +154,34 @@ const sections = [
     ],
   },
   {
+    title: "maliki fiqh ...",
+    subtitle: "links to books for learning maliki fiqh",
+    links: [
+      {
+        text: "Ar-Risalah",
+        note: "maliki version",
+        url: "https://www.kalamullah.com/Books/The%20Risala%20-%20A%20Treatise%20on%20Maliki%20Fiqh.pdf",
+      },
+      {
+        text: "Mukhtasar Al-Akhdari",
+        url: "https://archive.org/details/AkhdariPacket101314/mode/2up",
+      },
+      {
+        text: "Al-Murshid Al-Mu'een",
+        url: "https://www.muwatta.com/ebooks/english/al-murshid_al-muin_arabic_footnotes.pdf",
+      },
+      {
+        text: "Maliki Fiqh Rihla 2014",
+
+        url: "https://malikifiqhqa.com/wp-content/uploads/2019/01/MALIKI-FIQH-RIHLA-2014.pdf",
+      },
+      {
+        text: "Maliki Fiqh Rihla 2015",
+        url: "https://malikifiqhqa.com/wp-content/uploads/2019/01/Maliki-Fiqh-Rihla-2015-pdf.pdf",
+      },
+    ],
+  },
+  {
     title: "scholars ...",
     subtitle: "trusted scholars to take from",
     links: [
@@ -209,8 +237,42 @@ const sections = [
       },
       {
         text: "Sunan Ad-Darimi",
-        url: "https://sunnah.com/darimi",
         note: "(arabic only || not pdf)",
+        url: "https://sunnah.com/darimi",
+      },
+    ],
+  },
+  {
+    title: "shafii fiqh ...",
+    subtitle: "links to books for learning shafii fiqh",
+    links: [
+      {
+        text: "Ar-Risalah",
+        note: "shafii version",
+        url: "https://www.kalamullah.com/Books/en_Shaafi_Risaala_fi_Usul_al_Fiqh.pdf",
+      },
+      {
+        text: "Matn Az-Zubad",
+        note: "(arabic only)",
+        url: "https://www.scribd.com/document/347656055/Matan-Zubad-pdf",
+      },
+
+      {
+        text: "'Umdat As-Salik",
+        url: "https://archive.org/details/relianceofthetravellertheclassicmanualofislamicsacredlawindexed",
+      },
+      {
+        text: "Safinat Un-Naja",
+        url: "https://data.nur.nu/Kutub/English/Shafi3i-fiqh_Safinat-al-naja.pdf",
+      },
+      {
+        text: "Matn Abi Shuja'",
+        note: "(arabic only)",
+        url: "https://www.scribd.com/document/609210208/Matn-Abi-Shuja",
+      },
+      {
+        text: "Bulugh Al-Maram",
+        url: "https://www.kalamullah.com/Books/Bulugh%20Al-Maram.pdf",
       },
     ],
   },
@@ -226,7 +288,10 @@ const sections = [
       { text: "abdurrahman.org", url: "https://abdurrahman.org" },
       { text: "kalamullah", url: "https://kalamullah.com/" },
       { text: "Ad-Dorar As-Sunniyah", url: "https://dorar.net/en" },
-      { text: "honey for the heart", url: "https://honeyfortheheart.wordpress.com" },
+      {
+        text: "honey for the heart",
+        url: "https://honeyfortheheart.wordpress.com",
+      },
       {
         text: "binothaimeen",
         url: "https://binothaimeen.net",
@@ -235,6 +300,7 @@ const sections = [
       { text: "abukhadeejah", url: "https://abukhadeejah.com" },
     ],
   },
+
   {
     title: "non-scholars ...",
     subtitle: "trusted non-scholars to take from",
@@ -260,6 +326,64 @@ const sections = [
         text: "Jake Brancatella",
         note: "aka. Muslim Metaphysician",
         url: "https://www.youtube.com/@JakeBrancatella",
+      },
+    ],
+  },
+  {
+    title: "hanbali fiqh ...",
+    subtitle: "links to books for learning hanbali fiqh",
+    links: [
+      {
+        text: "Bidayat Al-'Abid",
+        url: "https://www.scribd.com/document/533980821/Bidayat-al-Abid-Commencement-of-the-Worshiper",
+      },
+      {
+        text: "Akhsar Al-Mukhtasarat",
+        url: "https://www.systemofislam.com/pdf/circles/Akhsar%20al%20Mukhtasarat%20-%20English.pdf",
+      },
+      {
+        text: "'Umdat Al-Fiqh",
+        url: "https://www.kalamullah.com/Books/umdah-al-fiqh.pdf",
+      },
+      {
+        text: "'Umdat Al-Talib",
+        note: "(couldn't find pdf)",
+        url: "#",
+      },
+      {
+        text: "Kitab Furu' Al-Fiqh",
+        url: "https://archive.org/details/an-epitome-of-hanbali-substantive-law/mode/2up",
+      },
+      {
+        text: "Minhaj As-Salikeen",
+        url: "https://www.kalamullah.com/Books/Minhaj-al-Salikin-The-Path-of-the-Wayfarer-Sh.-al-Sadi.pdf",
+      },
+      {
+        text: "Zad Al-Mustaqni'",
+        note: "with commentary by Sh. Saleh Al-Fawzan",
+        url: "https://archive.org/details/zadalmustaqni_202003/A-Commentary-on-Zad-al-Mustaqni-Sh.-Salih-al-Fawzan-Vol.-1-2-compressed/",
+      },
+    ],
+  },
+  {
+    title: "hanafi fiqh ...",
+    subtitle: "links to books for learning hanafi fiqh",
+    links: [
+      {
+        text: "Mukhtasar Al-Quduri",
+        url: "https://ia801906.us.archive.org/27/items/quduri.....-eng..-ahmad-ibn-muh/Quduri.....Eng..Ahmad%20Ibn%20Muh.pdf",
+      },
+      {
+        text: "Kitab Ul-Athaar",
+        url: "https://www.ebooks2go.com/img/samplefiles/9781906949990_Sample.pdf",
+      },
+      {
+        text: "Nur Al-Idah",
+        url: "https://www.kalamullah.com/Books/Nur-al-Idah-arabic-english.pdf",
+      },
+      {
+        text: "Maraqi Al-Sa'adat",
+        url: "https://archive.org/details/ascent-to-felicity/mode/2up",
       },
     ],
   },
