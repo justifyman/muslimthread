@@ -107,7 +107,8 @@ const sections = [
       },
       {
         text: "Al-Lisan youtube channel",
-        url: "https://youtube.com/@al-lisan"
+        url: "https://youtube.com/@al-lisan",
+      }
     ],
   },
   {
