@@ -105,6 +105,9 @@ const sections = [
         text: "Arabic with AMAU",
         url: "https://www.amauacademy.com/pages/arabic-with-amau-program",
       },
+      {
+        text: "Al-Lisan youtube channel",
+        url: "https://youtube.com/@al-lisan"
     ],
   },
   {
@@ -382,10 +385,7 @@ const sections = [
         text: "Nur Al-Idah",
         url: "https://www.kalamullah.com/Books/Nur-al-Idah-arabic-english.pdf",
       },
-      {
-        text: "Maraqi Al-Sa'adat",
-        url: "https://archive.org/details/ascent-to-felicity/mode/2up",
-      },
+    
     ],
   },
 ];
