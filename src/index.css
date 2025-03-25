@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+@keyframes fadeInBottomToTop {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* start below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* end at normal position */
+  }
+}
+
+.fadeInBottomToTop {
+  animation: fadeInBottomToTop 1.5s ease-out forwards; /* 1.5s duration, ease-out timing */
+}
