@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Hero from "./Hero";
 import Footer from "./Footer";
-import { link, sub, text } from "framer-motion/client";
+
 
 export default function Threads() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
