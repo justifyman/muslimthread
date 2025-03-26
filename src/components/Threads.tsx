@@ -641,11 +641,11 @@ const sections = [
     subtitle: "refuting innovations that are widespread among the ummah today",
     links: [
       {
-        text: "ruling on bid'ah hasanah / good innovation",
+        text: "ruling on bid'ah hasanah | good innovation",
         url: "https://islamqa.info/en/answers/205/there-is-no-such-thing-as-bid146ah-hasanah-in-islam",
       },
       {
-        text: "mawlid / celebration of the Prophet ﷺ's birthday",
+        text: "mawlid | celebration of the Prophet ﷺ's birthday",
         url: "https://islamqa.info/en/answers/249/celebrating-mawlid-al-nabi-muhammads-birthday-allowed",
       },
       {
