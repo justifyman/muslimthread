@@ -641,11 +641,11 @@ const sections = [
     subtitle: "refuting innovations that are widespread among the ummah today",
     links: [
       {
-        text: "ruling on bid'ah hasanah | good innovation",
+        text: "bid'ah hasanah | good innovation",
         url: "https://islamqa.info/en/answers/205/there-is-no-such-thing-as-bid146ah-hasanah-in-islam",
       },
       {
-        text: "mawlid | celebration of the Prophet ﷺ's birthday",
+        text: "mawlid | the Prophet ﷺ's birthday",
         url: "https://islamqa.info/en/answers/249/celebrating-mawlid-al-nabi-muhammads-birthday-allowed",
       },
       {
@@ -661,7 +661,7 @@ const sections = [
         url: "https://islamqa.info/en/answers/10119/saying-sadaqa-allaah-al-azeem",
       },
       {
-        text: "kissing the quran and swaying whilst reciting",
+        text: "kissing the quran & swaying whilst reciting",
         url: "https://islamqa.info/en/answers/2260/kissing-the-mus-haf-kissing-ones-fingers-and-swaying-whilst-reciting-quran",
       },
     ],
@@ -671,7 +671,7 @@ const sections = [
     subtitle: "refuting haram that are widespread among the ummah today",
     links: [
       {
-        text: "ruling on music",
+        text: "music",
         url: "https://islamqa.info/en/answers/5000/is-music-haram",
       },
       {
@@ -679,16 +679,16 @@ const sections = [
         url: "https://islamqa.info/en/answers/1200/evidence-prohibiting-of-mixing-of-men-and-women",
       },
       {
-        text: "ruling on drawing living beings",
+        text: "drawing living beings",
         url: "https://islamqa.info/en/answers/39806/ruling-on-drawing-animate-beings",
       },
       {
-        text: "ruling on boxing",
+        text: "boxing",
         url: "https://islamqa.info/en/answers/10427/ruling-on-boxing",
         note: "and other combat sports that involve hitting the face",
       },
       {
-        text: "ruling on vaping and smoking",
+        text: "vaping and smoking",
         url: "https://islamqa.info/en/answers/201512/is-vaping-allowed",
       },
     ],
