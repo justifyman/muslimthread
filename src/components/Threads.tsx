@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Hero from "./Hero";
 import Footer from "./Footer";
+import { link, sub, text } from "framer-motion/client";
 
 export default function Threads() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
@@ -15,6 +16,7 @@ export default function Threads() {
     "madhab",
     "scholars",
     "websites",
+    "refutation",
   ];
 
   const filteredSections = activeCategory
@@ -312,7 +314,7 @@ function CategoryIcon({ category }: { category: string }) {
 // Data structure for sections
 const sections = [
   {
-    title: "fatawa / qna ...",
+    title: "Fatawa / QnA ",
     subtitle: "rulings & questions and answers",
     links: [
       { text: "IslamQA", url: "https://islamqa.info/" },
@@ -331,7 +333,7 @@ const sections = [
     ],
   },
   {
-    title: "arabic learning ...",
+    title: "Arabic Learning ",
     subtitle: "resources for learning arabic",
     links: [
       { text: "arabic101 youtube", url: "https://www.youtube.com/@Arabic101" },
@@ -359,7 +361,7 @@ const sections = [
     ],
   },
   {
-    title: "beneficial books ...",
+    title: "Beneficial Books ",
     subtitle: "useful books pdfs",
     links: [
       {
@@ -405,7 +407,7 @@ const sections = [
     ],
   },
   {
-    title: "maliki madhab fiqh ...",
+    title: "Maliki Madhab Fiqh ",
     subtitle: "links to books for learning maliki fiqh",
     links: [
       {
@@ -433,7 +435,7 @@ const sections = [
     ],
   },
   {
-    title: "scholars ...",
+    title: "Scholars ",
     subtitle: "trusted scholars to take from",
     links: [
       { text: "Abdusalaam Shuwayir" },
@@ -451,7 +453,7 @@ const sections = [
     ],
   },
   {
-    title: "the 9 books of hadith ...",
+    title: "The 9 Books of Hadith ",
     subtitle: "pdfs to the 9 books of hadith",
     links: [
       {
@@ -494,7 +496,7 @@ const sections = [
     ],
   },
   {
-    title: "shafii madhab fiqh ...",
+    title: "Shafii Madhab Fiqh ",
     subtitle: "links to books for learning shafii fiqh",
     links: [
       {
@@ -528,7 +530,7 @@ const sections = [
     ],
   },
   {
-    title: "beneficial websites ...",
+    title: "Beneficial Websites ",
     subtitle: "links to useful websites",
     links: [
       { text: "quran.com", url: "https://quran.com/" },
@@ -553,7 +555,7 @@ const sections = [
   },
 
   {
-    title: "non-scholars ...",
+    title: "Non-Scholars ",
     subtitle: "trusted non-scholars to take from",
     links: [
       {
@@ -581,7 +583,7 @@ const sections = [
     ],
   },
   {
-    title: "hanbali madhab fiqh ...",
+    title: "Hanbali Madhab Fiqh ",
     subtitle: "links to books for learning hanbali fiqh",
     links: [
       {
@@ -617,7 +619,7 @@ const sections = [
     ],
   },
   {
-    title: "hanafi madhab fiqh ...",
+    title: "Hanafi Madhab Fiqh ",
     subtitle: "links to books for learning hanafi fiqh",
     links: [
       {
@@ -631,6 +633,63 @@ const sections = [
       {
         text: "Nur Al-Idah",
         url: "https://www.kalamullah.com/Books/Nur-al-Idah-arabic-english.pdf",
+      },
+    ],
+  },
+  {
+    title: "Refutation of Common Bid'ah",
+    subtitle: "refuting innovations that are widespread among the ummah today",
+    links: [
+      {
+        text: "ruling on bid'ah hasanah / good innovation",
+        url: "https://islamqa.info/en/answers/205/there-is-no-such-thing-as-bid146ah-hasanah-in-islam",
+      },
+      {
+        text: "mawlid / celebration of the Prophet ﷺ's birthday",
+        url: "https://islamqa.info/en/answers/249/celebrating-mawlid-al-nabi-muhammads-birthday-allowed",
+      },
+      {
+        text: "celebrating birthdays",
+        url: "https://islamqa.info/en/answers/1027/do-muslims-celebrate-birthdays",
+      },
+      {
+        text: "reciting intention for fasting out loud",
+        url: "https://islamqa.info/en/answers/37643/can-you-utter-intention-for-fasting-out-loud",
+      },
+      {
+        text: "saying “Sadaqa Allaah al-‘Azheem”",
+        url: "https://islamqa.info/en/answers/10119/saying-sadaqa-allaah-al-azeem",
+      },
+      {
+        text: "kissing the quran and swaying whilst reciting",
+        url: "https://islamqa.info/en/answers/2260/kissing-the-mus-haf-kissing-ones-fingers-and-swaying-whilst-reciting-quran",
+      },
+    ],
+  },
+  {
+    title: "Refutation of Widespread Haram",
+    subtitle: "refuting haram that are widespread among the ummah today",
+    links: [
+      {
+        text: "ruling on music",
+        url: "https://islamqa.info/en/answers/5000/is-music-haram",
+      },
+      {
+        text: "freemixing with the opposite gender",
+        url: "https://islamqa.info/en/answers/1200/evidence-prohibiting-of-mixing-of-men-and-women",
+      },
+      {
+        text: "ruling on drawing living beings",
+        url: "https://islamqa.info/en/answers/39806/ruling-on-drawing-animate-beings",
+      },
+      {
+        text: "ruling on boxing",
+        url: "https://islamqa.info/en/answers/10427/ruling-on-boxing",
+        note: "and other combat sports that involve hitting the face",
+      },
+      {
+        text: "ruling on vaping and smoking",
+        url: "https://islamqa.info/en/answers/201512/is-vaping-allowed",
       },
     ],
   },
