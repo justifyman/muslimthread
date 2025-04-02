@@ -527,6 +527,11 @@ const sections = [
         text: "Bulugh Al-Maram",
         url: "https://www.kalamullah.com/Books/Bulugh%20Al-Maram.pdf",
       },
+      {
+        text: "Al-Yaqut An-Nafis",
+        note: "(arabic only)",
+        url: "https://archive.org/details/Pdf3705/mode/2up"
+      },
     ],
   },
   {
