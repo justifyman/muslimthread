@@ -541,6 +541,7 @@ const sections = [
       { text: "quran.com", url: "https://quran.com/" },
       { text: "sunnah.com", url: "https://sunnah.com/" },
       { text: "muslimthread", url: "#" },
+      { text: "NoorNet", url: "https://noornet.vercel.app/" }
       { text: "manrabbuk.com", url: "https://manrabbuk.com" },
       { text: "takw.in", url: "https://takw.in/manhaj", note: "(arabic only)" },
       { text: "abdurrahman.org", url: "https://abdurrahman.org" },
@@ -556,6 +557,7 @@ const sections = [
         url: "https://binothaimeen.net",
         note: "(arabic only)",
       },
+      
     ],
   },
 
