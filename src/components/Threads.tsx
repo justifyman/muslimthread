@@ -332,6 +332,17 @@ const sections = [
         url: "https://binothaimeen.net",
         note: "(arabic only)",
       },
+      {
+        text: "al-badr.net",
+        url: "https://www.al-badr.net/",
+        note: "(arabic only)",
+      },
+      {
+        text: "alfawzan",
+        url: "https://www.alfawzan.af.org.sa/ar",
+        note: "(arabic only)",
+      },
+
     ],
   },
   {
@@ -613,6 +624,7 @@ const sections = [
       {
         text: "app.turath",
         url: "https://app.turath.io/",
+        note: "(arabic only)",
       },
       {
         text: "resources for new muslims",
