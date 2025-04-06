@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Hero from "./Hero";
 import Footer from "./Footer";
 
-
 export default function Threads() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -12,7 +11,9 @@ export default function Threads() {
   const categories = [
     "fatawa",
     "arabic",
-    "beneficial",
+    "aqeedah",
+    "seerah",
+    "tafsir",
     "madhab",
     "scholars",
     "websites",
@@ -319,6 +320,7 @@ const sections = [
     links: [
       { text: "IslamQA", url: "https://islamqa.info/" },
       { text: "Islamweb", url: "https://www.islamweb.com/en/" },
+      { text: "NoorNet", url: "https://noornet.vercel.app/" },
       {
         text: "binbaz.org",
         url: "https://binbaz.org.sa/fatwas/kind/1",
@@ -329,6 +331,48 @@ const sections = [
         text: "binothaimeen",
         url: "https://binothaimeen.net",
         note: "(arabic only)",
+      },
+    ],
+  },
+  {
+    title: "Aqeedah",
+    subtitle: "resources relating to aqeedah",
+    links: [
+      {
+        text: "Usool Al-Thalatha",
+        url: "https://www.kalamullah.com/Books/Explanation%20of%20the%20Three%20Fundamental%20Principles%20of%20Islaam.pdf",
+      },
+      {
+        text: "Kitab At-Tawheed",
+        url: "https://ia804707.us.archive.org/7/items/tawheed_201612/KitabAt-tawheedExplained_text.pdf",
+      },
+      {
+        text: "Al-Aqidat Al-Wasitiyyah",
+        url: "https://www.kalamullah.com/Books/Sharh%20Al-Aqeedat-il-Wasitiyah.pdf",
+      },
+      {
+        text: "Al-Qawaid Al-Arba'a",
+        url: "https://d1.islamhouse.com/data/en/ih_books/single/en_Four_Foundations_of_Shirk.pdf",
+      },
+      {
+        text: "Kashf Ash-Shubuhaat",
+        url: "https://dn790007.ca.archive.org/0/items/KashfAsh-ShubuhaatRemovingDoubtsPertainingToShirk/Kashf%20Ash-Shubuhaat%20-%20Removal%20Of%20The%20Doubts.pdf",
+      },
+      {
+        text: "Al-Ibanah As-Sughra",
+        url: "https://www.scribd.com/document/650018661/Al-Ibanah-as-Sughra-by-Ibn-Battah",
+      },
+      {
+        text: "Al-'Aqeedatul Hamawiyyah",
+        url: "https://www.kalamullah.com/Books/Explanation_of_a_Summary_of_Aqeedat_Hamawiyyah.pdf",
+      },
+      {
+        text: "Nullifiers of Islam",
+        url: "https://manrabbuk.com/archive/Explanation%20of%20the%20Nullifiers%20of%20Islam.pdf",
+      },
+      {
+        text: "At-Tawheed Full Lesson by AMAU",
+        url: "https://www.youtube.com/playlist?list=PLUhUQZnx8aftiRCwHRVAgfSlje7ZegnvX",
       },
     ],
   },
@@ -358,54 +402,51 @@ const sections = [
         text: "Al-Lisan youtube channel",
         url: "https://youtube.com/@al-lisan",
       },
+      {
+        text: "Google Drive for Arabic Resources",
+        url: "https://drive.google.com/drive/folders/1wMduQTet4roGiD4UIfYTOxPu7G6jyjTe",
+      },
+      {
+        text: "Arabic Fluency youtube channel",
+        url: "https://www.youtube.com/@ArabicFluency/videos",
+      },
+      {
+        text: "Arabic for Beginners",
+        url: "https://www.arabicforbeginners.com/vocabulary?book=qasas-1&page=1",
+      },
     ],
   },
+
   {
-    title: "Beneficial Books ",
-    subtitle: "useful books pdfs",
+    title: "Tafsir",
+    subtitle: "resources relating to tafsir",
     links: [
       {
-        text: "Usool Al-Thalatha",
-        url: "https://www.kalamullah.com/Books/Explanation%20of%20the%20Three%20Fundamental%20Principles%20of%20Islaam.pdf",
-      },
-      {
-        text: "Kitab At-Tawheed",
-        url: "https://ia804707.us.archive.org/7/items/tawheed_201612/KitabAt-tawheedExplained_text.pdf",
-      },
-      {
-        text: "Al-Aqidat Al-Wasitiyyah",
-        url: "https://www.kalamullah.com/Books/Sharh%20Al-Aqeedat-il-Wasitiyah.pdf",
-      },
-      {
-        text: "Al-Qawaid Al-Arba'a",
-        url: "https://d1.islamhouse.com/data/en/ih_books/single/en_Four_Foundations_of_Shirk.pdf",
-      },
-      {
-        text: "Al-Ibanah As-Sughra",
-        url: "https://www.scribd.com/document/650018661/Al-Ibanah-as-Sughra-by-Ibn-Battah",
-      },
-      {
-        text: "Al-Risalah At-Tadmuriyyah",
-        url: "https://www.emaanlibrary.com/wp-content/uploads/2022/01/Towards-Understanding-of-Tadmuriyyah-Exp.-by-Sh.-al-'Uthaymeen.pdf",
-      },
-      {
-        text: "Al-'Aqeedatul Hamawiyyah",
-        url: "https://www.kalamullah.com/Books/Explanation_of_a_Summary_of_Aqeedat_Hamawiyyah.pdf",
-      },
-      {
-        text: "Tafseer Ibn-Katheer",
+        text: "Tafsir Ibn-Katheer",
         url: "https://www.kalamullah.com/Books/Tafsir%20Ibn%20Kathir%20all%2010%20volumes.pdf",
       },
       {
-        text: "Nullifiers of Islam",
-        url: "https://manrabbuk.com/archive/Explanation%20of%20the%20Nullifiers%20of%20Islam.pdf",
-      },
-      {
-        text: "Kashf Ash-Shubuhaat",
-        url: "https://dn790007.ca.archive.org/0/items/KashfAsh-ShubuhaatRemovingDoubtsPertainingToShirk/Kashf%20Ash-Shubuhaat%20-%20Removal%20Of%20The%20Doubts.pdf",
+        text: "Full Tafsir Ajza 1-30 with Ustadh Tim Humble",
+        url: "https://www.youtube.com/playlist?list=PL2dRQaGGWZOBYkqSWcfhzetBvPKOUFkf4",
       },
     ],
   },
+
+  {
+    title: "Seerah",
+    subtitle: "resources relating to seerah",
+    links: [
+      {
+        text: "Al-Arjuzatu Al-Mee'iyyah",
+        url: "https://kalemah.org/wp-content/uploads/al-Arjuzatu-al-Meeiyyah.pdf",
+      },
+      {
+        text: "Seerah with Ustadh Abdulrahman Hassan",
+        url: "https://www.youtube.com/playlist?list=PL2dRQaGGWZOBTruan5Ca44q9qQzp-ne0T",
+      },
+    ],
+  },
+
   {
     title: "Maliki Madhab Fiqh ",
     subtitle: "links to books for learning maliki fiqh",
@@ -527,11 +568,6 @@ const sections = [
         text: "Bulugh Al-Maram",
         url: "https://www.kalamullah.com/Books/Bulugh%20Al-Maram.pdf",
       },
-      {
-        text: "Al-Yaqut An-Nafis",
-        note: "(arabic only)",
-        url: "https://archive.org/details/Pdf3705/mode/2up"
-      },
     ],
   },
   {
@@ -541,7 +577,10 @@ const sections = [
       { text: "quran.com", url: "https://quran.com/" },
       { text: "sunnah.com", url: "https://sunnah.com/" },
       { text: "muslimthread", url: "#" },
-      { text: "NoorNet", url: "https://noornet.vercel.app/" },
+      {
+        text: "NoorNet",
+        url: "https://noornet.vercel.app/",
+      },
       { text: "manrabbuk.com", url: "https://manrabbuk.com" },
       { text: "takw.in", url: "https://takw.in/manhaj", note: "(arabic only)" },
       { text: "abdurrahman.org", url: "https://abdurrahman.org" },
@@ -557,10 +596,100 @@ const sections = [
         url: "https://binothaimeen.net",
         note: "(arabic only)",
       },
-      
+      {
+        text: "al-badr.net",
+        url: "https://www.al-badr.net/",
+        note: "(arabic only)",
+      },
+      {
+        text: "alfawzan",
+        url: "https://www.alfawzan.af.org.sa/ar",
+        note: "(arabic only)",
+      },
+      {
+        text: "Surah Memorization Tool",
+        url: "https://surahmemorizer.com/",
+      },
+      {
+        text: "app.turath",
+        url: "https://app.turath.io/",
+      },
+      {
+        text: "resources for new muslims",
+        url: "https://drive.google.com/drive/folders/1lLvPg-rXUgdIhfMrC-nl284iFbnrMpXl",
+      },
+      {
+        text: "'Ilm",
+        url: "https://drive.google.com/drive/folders/13uZK8w-awroMOttSSEHZEBT72K_T2ZaH",
+      },
+      {
+        text: "organized list of books in 41+ langs",
+        url: "https://drive.google.com/drive/folders/17O90NqYU708gSzh6lZzxhSHsI5pPPORY",
+      },
     ],
   },
-
+  {
+    title: "Telegram Groups",
+    subtitle: "beneficial telegram groups to join",
+    links: [
+      {
+        text: "salaftime",
+        url: "https://t.me/salaftime",
+      },
+      {
+        text: "New Books and Editions",
+        url: "https://t.me/NewBooksAndEditions",
+      },
+      {
+        text: "kotobmosawara",
+        url: "https://t.me/kotobmosawara",
+      },
+      {
+        text: "kutub salafiyya",
+        url: "https://t.me/ktbslfia",
+      },
+      {
+        text: "maktab salafies",
+        url: "https://t.me/maktbslfes",
+      },
+      {
+        text: "koutobi",
+        url: "https://t.me/koutobi",
+      },
+      {
+        text: "aboderare",
+        url: "https://t.me/aboderare",
+      },
+      {
+        text: "book publishing channel pdf",
+        url: "https://t.me/Bookpublishingchannepdf",
+      },
+      {
+        text: "kutub al salaf",
+        url: "https://t.me/Kutabalsalaf",
+      },
+      {
+        text: "brothers who plan to apply for islamic unis",
+        url: "https://t.me/+OboBIzedLmlhZTIx",
+      },
+      {
+        text: "hanbaliyyah",
+        url: "https://t.me/Hanbaliyyah",
+      },
+      {
+        text: "abu ismail notes",
+        url: "https://t.me/abuismailnotes",
+      },
+      {
+        text: "gems of the salaf",
+        url: "https://t.me/gemsofthesalaf",
+      },
+      {
+        text: "Hanbali Fiqh",
+        url: "https://t.me/hanbali_fiqh_1",
+      },
+    ],
+  },
   {
     title: "Non-Scholars ",
     subtitle: "trusted non-scholars to take from",
@@ -623,6 +752,10 @@ const sections = [
         note: "commentary by Sh. Saleh Al-Fawzan",
         url: "https://archive.org/details/zadalmustaqni_202003/A-Commentary-on-Zad-al-Mustaqni-Sh.-Salih-al-Fawzan-Vol.-1-2-compressed/",
       },
+      {
+        text: "Initiation of The Hanbali playlist",
+        url: "https://www.youtube.com/playlist?list=PLU3--TR_v1eKI4SGMYDYO5k3LEdipErkL",
+      },
     ],
   },
   {
@@ -648,11 +781,11 @@ const sections = [
     subtitle: "refuting innovations that are widespread among the ummah today",
     links: [
       {
-        text: "bid'ah hasanah | good innovation",
+        text: "ruling on bid'ah hasanah / good innovation",
         url: "https://islamqa.info/en/answers/205/there-is-no-such-thing-as-bid146ah-hasanah-in-islam",
       },
       {
-        text: "mawlid | the Prophet ﷺ's birthday",
+        text: "mawlid / celebration of the Prophet ﷺ's birthday",
         url: "https://islamqa.info/en/answers/249/celebrating-mawlid-al-nabi-muhammads-birthday-allowed",
       },
       {
@@ -668,7 +801,7 @@ const sections = [
         url: "https://islamqa.info/en/answers/10119/saying-sadaqa-allaah-al-azeem",
       },
       {
-        text: "kissing the quran & swaying whilst reciting",
+        text: "kissing the quran and swaying whilst reciting",
         url: "https://islamqa.info/en/answers/2260/kissing-the-mus-haf-kissing-ones-fingers-and-swaying-whilst-reciting-quran",
       },
     ],
@@ -678,7 +811,7 @@ const sections = [
     subtitle: "refuting haram that are widespread among the ummah today",
     links: [
       {
-        text: "music",
+        text: "ruling on music",
         url: "https://islamqa.info/en/answers/5000/is-music-haram",
       },
       {
@@ -686,16 +819,16 @@ const sections = [
         url: "https://islamqa.info/en/answers/1200/evidence-prohibiting-of-mixing-of-men-and-women",
       },
       {
-        text: "drawing living beings",
+        text: "ruling on drawing living beings",
         url: "https://islamqa.info/en/answers/39806/ruling-on-drawing-animate-beings",
       },
       {
-        text: "boxing",
+        text: "ruling on boxing",
         url: "https://islamqa.info/en/answers/10427/ruling-on-boxing",
         note: "and other combat sports that involve hitting the face",
       },
       {
-        text: "vaping and smoking",
+        text: "ruling on vaping and smoking",
         url: "https://islamqa.info/en/answers/201512/is-vaping-allowed",
       },
     ],
